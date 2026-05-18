@@ -1,7 +1,7 @@
 # BIO 410 Final Project
 ## Background
 The data consist of 6 samples from the organism Ebola virus. This organism is a filovirus that can cause Ebola disease, a serious and often deadly illness in humans. According to the Centers for Disease Control and Prevention, Ebola disease is caused by infection with orthoebolaviruses, which are found mainly in sub-Saharan Africa and can cause severe disease (Centers for Disease Control and Prevention, 2026).
- [citation](Centers for Disease Control and Prevention. (2026, May 15). Ebola disease basics. U.S. Department of Health and Human Services. https://www.cdc.gov/ebola/about/index.html
+ (Centers for Disease Control and Prevention. (2026, May 15). Ebola disease basics. U.S. Department of Health and Human Services. https://www.cdc.gov/ebola/about/index.html
 ## Purpose
 The purpose of this project was to create a phylogenetic tree from 6 samples of Ebola virus in order to determine the evolutionary relationships between the samples.
 
