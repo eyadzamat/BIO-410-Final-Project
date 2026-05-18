@@ -1,7 +1,6 @@
 # BIO 410 Final Project
 ## Background
-The data consist of 6 samples from the organism Ebola virus. This organism is a filovirus, which is an RNA virus that can cause Ebola virus disease, a severe illness in humans. Ebola virus disease can lead to symptoms such as fever, weakness, headache, vomiting, diarrhea, and in serious cases, bleeding. Ebola virus has been connected to major outbreaks in Africa[citation](https://www.cdc.gov/index.html).
-
+The data consist of 6 samples from the organism Ebola virus. This organism is a filovirus, which is an RNA virus that can cause Ebola virus disease, a severe illness in humans. Ebola virus disease can lead to symptoms such as fever, weakness, headache, vomiting, diarrhea, and in serious cases, bleeding. Ebola virus has been connected to major outbreaks in Africa [citation](Centers for Disease Control and Prevention. (2026, May 15). Ebola disease basics. U.S. Department of Health and Human Services. https://www.cdc.gov/ebola/about/index.html
 ## Purpose
 The purpose of this project was to create a phylogenetic tree from 6 samples of Ebola virus in order to determine the evolutionary relationships between the samples.
 
