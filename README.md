@@ -8,7 +8,8 @@ The purpose of this project was to create a phylogenetic tree from 6 samples of 
 ## Methods
 The data used in this project came from next-generation sequencing reads from 6 Ebola virus samples. The raw sequencing reads were first assembled into longer DNA sequences called contigs using MEGAHIT. This helped combine the short sequencing reads into larger pieces of genetic information.
 After the assembly step, the contig files were brought into RStudio and analyzed using the DECIPHER package. The sequences were aligned so that similarities and differences between the 6 samples could be compared. After the alignment was completed, a phylogenetic tree was created using the maximum likelihood method in DECIPHER. This tree was used to show which samples were more closely related and which samples were more genetically different.
-The assembled reads are located in the eyad.zip file, and the raw sequencing reads are located in the folder/file named eyad in the repository. The final phylogenetic tree image is saved as (EyadTree.png)
+The assembled reads are located in the [eyad.zip](https://github.com/user-attachments/files/27943304/eyad.zip)
+ and the raw sequencing reads are located in the folder/file named eyad in the repository. The final phylogenetic tree image is saved as (EyadTree.png)
 
 
 
