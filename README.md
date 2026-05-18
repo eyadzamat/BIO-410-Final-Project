@@ -12,7 +12,7 @@ The raw sequencing reads were first assembled into longer sequences called conti
 After the assembly step, the contig files were brought into RStudio and analyzed using the DECIPHER package. The sequences were aligned so that similar regions lined up with each other. This made it possible to compare differences between the 6 samples more accurately.
 After the alignment was completed, a phylogenetic tree was created using the maximum likelihood method in DECIPHER. This method estimates the tree that best represents the evolutionary relationships between the samples. The final tree was then used to identify which Ebola virus samples were most closely related and which samples were more genetically different.
 
-The assembled reads are located in (eyad Final Project.htm)
+The assembled reads are located in (eyad Final Project.html)
  and the raw sequencing reads are located in [eyad.zip](https://github.com/user-attachments/files/27943304/eyad.zip). The final phylogenetic tree image is saved as (EyadTree.png)
 
 
