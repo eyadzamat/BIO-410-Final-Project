@@ -1,15 +1,17 @@
 # BIO 410 Final Project
 ## Background
-The data consist of 6 samples from the organism Ebola virus. This organism is a virus which can cause Ebola disease, a serious and often deadly illness in people and some animals [citation](https://www.cdc.gov/index.html).
+The data consist of 6 samples from the organism Ebola virus. This organism is a filovirus, which is an RNA virus that can cause Ebola virus disease, a severe illness in humans. Ebola virus disease can lead to symptoms such as fever, weakness, headache, vomiting, diarrhea, and in serious cases, bleeding. Ebola virus has been connected to major outbreaks in Africa[citation](https://www.cdc.gov/index.html).
 
 ## Purpose
 The purpose of this project was to create a phylogenetic tree from 6 samples of Ebola virus in order to determine the evolutionary relationships between the samples.
 
 
 ## Methods
-The data used for this project came from next-generation sequencing reads from 6 Ebola virus samples. These raw sequencing reads were first assembled into longer sequences using MEGAHIT. After assembly, the sequences were aligned using the DECIPHER package in R. The aligned sequences were then used to create a phylogenetic tree using the maximum likelihood method in the DECIPHER package in R.
+The data used in this project came from next-generation sequencing reads from 6 Ebola virus samples. The raw sequencing reads were first assembled into longer DNA sequences called contigs using MEGAHIT. This helped combine the short sequencing reads into larger pieces of genetic information.
+After the assembly step, the contig files were brought into RStudio and analyzed using the DECIPHER package. The sequences were aligned so that similarities and differences between the 6 samples could be compared. After the alignment was completed, a phylogenetic tree was created using the maximum likelihood method in DECIPHER. This tree was used to show which samples were more closely related and which samples were more genetically different.
+The assembled reads are located in the eyad.zip file, and the raw sequencing reads are located in the folder/file named eyad in the repository. The final phylogenetic tree image is saved as (EyadTree.png)
 
-For each source of data, state which files/folders in the repository correspond to those data (so for example, the assmebled reads are in __________ [some folder] and the raw sequencing reads are in ________ [eyad 2.zip](https://github.com/user-attachments/files/27942462/eyad.2.zip)
+
 
 ## Results
 
@@ -19,6 +21,11 @@ Here is the phylogenetic tree:
 ![Example image of a phylogenetic tree](EyadTree.png)
 
 Explain
-- which samples are closely related to each other
-- how many individuals did these 6 samples come from (probably) based on the phylogenetic tree
+
+The phylogenetic tree shows that **samples 4 and 5 are the most closely related** because they connect at the lowest branch point and have almost no distance between them. This means their genetic sequences are very similar.
+
+Samples **2 and 3** are also closely related because they branch together near the bottom of the tree. Sample **1** is closely related to samples 2 and 3, and sample **6** is also part of that same larger group, but it branches off a little earlier.
+
+Based on the phylogenetic tree, the 6 Ebola virus samples probably came from **two main individuals or groups**. One group includes **samples 1, 2, 3, and 6**, while the other group includes **samples 4 and 5**. This is because samples 4 and 5 are separated from the other samples by a much larger branch distance, showing they are more genetically different from the rest.
+
 
