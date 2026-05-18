@@ -1,22 +1,25 @@
 # BIO 410 Final Project
 ## Background
-The data consist of 6 samples from the organism Ebola virus. This organism is a filovirus, which is an RNA virus that can cause Ebola virus disease, a severe illness in humans. Ebola virus disease can lead to symptoms such as fever, weakness, headache, vomiting, diarrhea, and in serious cases, bleeding. Ebola virus has been connected to major outbreaks in Africa [citation](Centers for Disease Control and Prevention. (2026, May 15). Ebola disease basics. U.S. Department of Health and Human Services. https://www.cdc.gov/ebola/about/index.html
+The data consist of 6 samples from the organism Ebola virus. This organism is a filovirus that can cause Ebola disease, a serious and often deadly illness in humans. According to the Centers for Disease Control and Prevention, Ebola disease is caused by infection with orthoebolaviruses, which are found mainly in sub-Saharan Africa and can cause severe disease (Centers for Disease Control and Prevention, 2026).
+ [citation](Centers for Disease Control and Prevention. (2026, May 15). Ebola disease basics. U.S. Department of Health and Human Services. https://www.cdc.gov/ebola/about/index.html
 ## Purpose
 The purpose of this project was to create a phylogenetic tree from 6 samples of Ebola virus in order to determine the evolutionary relationships between the samples.
 
 
 ## Methods
-The data used in this project came from next-generation sequencing reads from 6 Ebola virus samples. The raw sequencing reads were first assembled into longer DNA sequences called contigs using MEGAHIT. This helped combine the short sequencing reads into larger pieces of genetic information.
-After the assembly step, the contig files were brought into RStudio and analyzed using the DECIPHER package. The sequences were aligned so that similarities and differences between the 6 samples could be compared. After the alignment was completed, a phylogenetic tree was created using the maximum likelihood method in DECIPHER. This tree was used to show which samples were more closely related and which samples were more genetically different.
+The data used in this project came from next-generation sequencing reads from 6 Ebola virus samples. Next-generation sequencing produces many short pieces of genetic information called reads. These reads were used to compare the genetic similarities and differences between the Ebola virus samples.
+The raw sequencing reads were first assembled into longer sequences called contigs using MEGAHIT. MEGAHIT is a program that takes short sequencing reads and combines overlapping reads into longer assembled sequences. This step was important because longer sequences make it easier to compare the samples.
+After the assembly step, the contig files were brought into RStudio and analyzed using the DECIPHER package. The sequences were aligned so that similar regions lined up with each other. This made it possible to compare differences between the 6 samples more accurately.
+After the alignment was completed, a phylogenetic tree was created using the maximum likelihood method in DECIPHER. This method estimates the tree that best represents the evolutionary relationships between the samples. The final tree was then used to identify which Ebola virus samples were most closely related and which samples were more genetically different.
+
 The assembled reads are located in the [eyad.zip](https://github.com/user-attachments/files/27943304/eyad.zip)
- and the raw sequencing reads are located in the folder/file named eyad in the repository. The final phylogenetic tree image is saved as (EyadTree.png)
+ and the raw sequencing reads are located in [eyad.zip](https://github.com/user-attachments/files/27943304/eyad.zip). The final phylogenetic tree image is saved as (EyadTree.png)
 
 
 
 ## Results
 
 Here is the phylogenetic tree:
-(Insert the image, see the markdown cheat sheet for how to do that)
 
 ![Example image of a phylogenetic tree](EyadTree.png)
 
