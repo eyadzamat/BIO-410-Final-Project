@@ -7,12 +7,9 @@ The purpose of this project was to create a phylogenetic tree from 6 samples of 
 
 
 ## Methods
-Include information about 
--  Sequencing reads (NGS next-generation sequencing)
--  Assembly using MEGAHIT (provide a link to MEGAHIT website)
--  Alignment using R package DECIPHER
--  Tree using ML method in R package DECIPHER
--  For each source of data, state which files/folders in the repository correspond to those data (so for example, the assmebled reads are in __________ [some folder] and the raw sequencing reads are in ________ [eyad 2.zip](https://github.com/user-attachments/files/27942462/eyad.2.zip)
+The data used for this project came from next-generation sequencing reads from 6 Ebola virus samples. These raw sequencing reads were first assembled into longer sequences using MEGAHIT. After assembly, the sequences were aligned using the DECIPHER package in R. The aligned sequences were then used to create a phylogenetic tree using the maximum likelihood method in the DECIPHER package in R.
+
+For each source of data, state which files/folders in the repository correspond to those data (so for example, the assmebled reads are in __________ [some folder] and the raw sequencing reads are in ________ [eyad 2.zip](https://github.com/user-attachments/files/27942462/eyad.2.zip)
 
 ## Results
 
